@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>基于jQuery的轮播组件</title>
+    <style type="text/css">
+        .mds .md{ border-radius:3px; overflow: hidden; border-top:3px solid #f26c4f; background: #fff; float: left; margin: 12px 0 0 12px; _display:inline;}
+        .notice .ti{ width: 100%; line-height: 49px; text-align: center; color:#26c8aa;  background: url(images/ti_g.png) repeat-x; font-size: 16px; font-weight: bold;}
+        .notice .article{ width: 100%; height: 152px; overflow: hidden; position: relative;}
+        .notice .article ul{ width: 100%;}
+        .notice .article li{ width: 100%; height: 130px; line-height: 24px; float: left; padding: 20px 10px 0 14px; list-style-type:none;}
+        .notice .ctls{ position: absolute; width: 264px; height: 12px; right: 0; bottom: 12px; text-align: right; padding-right: 22px;}
+        .notice .ctls .ctl{ display: inline-block; width: 10px; height: 10px; border-radius: 5px; background-color: #999; cursor: pointer; margin-left: 3px;}
+        .notice .ctls .ctl.act{ background: #ccc;}
+    </style>
+    <script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
+    <script type="text/javascript" src="jquery.jslides.js"></script>
+</head>
+<body>
+    <div class="md notice">
+        <div class="ti">公告</div>
+        <div id="full-screen-slider" class="article">
+            <ul id="slides">
+                <li>
+                    <div>1. 明月出天山，苍茫云海间</div>
+                    <div>2. 长风几万里，吹度玉门关</div>
+                </li>
+                <li>
+                    <div>1. 床前明月光，疑是地上霜。</div>
+                    <div>2. 举头望明月，低头思故乡</div>
+                </li>
+                <li>
+                    <div>1. 海上生明月，天涯共此时。</div>
+                    <div>2. 情人怨遥夜，竟夕起相思！</div>
+                </li>
+                <li>
+                    <div>1. 露从今夜白，月是故乡明。</div>
+                </li>
+                <li>
+                    <div>1. 明月几时有，把酒问青天。</div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
