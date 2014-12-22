@@ -1,6 +1,7 @@
 /**
  * jQuery jslides 
  * recode by fanyong@gmail.com 
+ * descrption: a jQuery plugin for slieds
  */
 $(function () {
     var numpic = $('#slides li').size() - 1;
